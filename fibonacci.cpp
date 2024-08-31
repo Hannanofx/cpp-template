@@ -1,3 +1,5 @@
+//  this code does'nt use recall or self calling function.
+
 #include <iostream>
 using namespace std;
 int fibo(int x) {
