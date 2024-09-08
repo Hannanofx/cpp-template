@@ -10,7 +10,7 @@ bool palindrome() {
     int i = 0;
     int j = num.length() - 1;
 
-    while (left < right) {
+    while (i<j) {
         if (num[i] != num[j]) {
             return false;
         }
